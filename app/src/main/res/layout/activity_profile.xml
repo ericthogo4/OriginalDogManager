@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_green"
+    android:orientation="vertical"
+
+    tools:context="com.mwangi.zalego_app.Profile"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        android:gravity="center_horizontal"
+        android:text="Dog Files"
+        android:textColor="@color/dark_blue"
+        android:fontFamily ="cursive"
+        android:textSize="38dp"
+        android:textStyle="bold" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:id="@+id/ImageView"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+
+                android:src="@drawable/defaultdog" />
+        </FrameLayout>
+
+        <!--<FrameLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="200dp">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="200dp"-->
+                <!--android:src="@drawable/circlecropgreen" />-->
+        <!--</FrameLayout>-->
+    <Button
+
+        android:id="@+id/button4"
+        android:layout_width="42sp"
+        android:layout_height="42sp"
+        android:background="@drawable/editreal"
+        android:textColor="#fff"
+        android:layout_marginRight="267sp"
+        android:layout_marginTop="150sp"
+        />
+        <Button
+            android:id="@+id/buttondel"
+            android:layout_width="42sp"
+            android:layout_height="42sp"
+            android:background="@drawable/deletereal"
+      android:layout_gravity="right"
+            android:textColor="#fff"
+            android:layout_marginLeft="267sp"
+            android:layout_marginTop="150sp"
+            />
+
+    </FrameLayout>
+
+
+
+    <!--<TextView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:paddingTop="30dp"-->
+        <!--android:text="Name:"-->
+        <!--android:textSize="20dp"-->
+        <!--android:textStyle="bold" />-->
+    <!--<EditText-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="30dp"-->
+        <!--android:background="#278e8c"-->
+        <!--android:textColor="#fff" />-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/light_blue">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dogdetails"
+        tools:listitem="@layout/dogdetailist_layout"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="5sp"
+        android:layout_marginLeft="5sp"
+        android:layout_gravity="center"
+        ></ListView>
+    </FrameLayout>
+
+
+</LinearLayout>

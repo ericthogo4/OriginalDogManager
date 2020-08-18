@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/dark_blue">
+
+    <view
+        class="android.view.View"
+        android:layout_width="fill_parent"
+        android:layout_height="8sp"
+        android:background="@color/dark_blue"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="77sp"
+        android:orientation="horizontal">
+        <view
+            android:layout_width="15dp"
+            android:layout_height="match_parent"
+            class="android.view.View"
+            android:id="@+id/row_tab"
+            android:background="@color/green_r"
+            android:layout_marginRight="8sp"
+            />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:background="#3170c0"
+            >
+            <TableRow android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:text="Reminder Text"
+                    android:id="@+id/row_text"
+                    android:textColor="@color/white"
+                    android:textSize="18sp"
+                    android:gravity="center_vertical"
+                    android:padding="10dp"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    />
+            </TableRow>
+            <TableRow android:orientation="horizontal">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="datestring"
+                    android:textStyle="italic"
+                    android:fontFamily="cursive"
+                    android:id="@+id/row_datestring"
+                    android:textColor="@color/white"
+                    android:layout_marginLeft="160sp"
+                    android:ellipsize="end"
+
+                    android:maxLines="1"/>
+            </TableRow>
+        </TableLayout>
+
+    </LinearLayout>
+    <view
+        class="android.view.View"
+        android:layout_width="fill_parent"
+        android:layout_height="20sp"
+        android:background="@color/dark_blue"/>
+
+</LinearLayout>

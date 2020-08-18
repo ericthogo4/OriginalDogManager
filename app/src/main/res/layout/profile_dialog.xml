@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_blue">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="18dp"/>
+    <EditText
+        android:background="@color/light_blue"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textSize="13dp"
+        android:id="@+id/name_profiledialog"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Weight:"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <EditText
+        android:background="@color/light_blue"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+
+        android:textSize="13dp"
+        android:id="@+id/weight_profiledialog"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gender:"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <EditText
+        android:background="@color/light_blue"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+
+        android:textSize="13dp"
+        android:id="@+id/gender_profiledialog"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Breed:"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <EditText
+        android:background="@color/light_blue"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+
+        android:textSize="13dp"
+        android:id="@+id/breed_profiledialog"/>
+
+    <TextView
+
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Habits:"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <EditText
+        android:background="@color/light_blue"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+
+        android:textSize="13dp"
+        android:id="@+id/habits_profiledialog"/>
+
+    <TextView
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Age:"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textSize="18dp"/>
+    <EditText
+        android:background="@color/light_blue"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+
+        android:textSize="13dp"
+        android:id="@+id/age_profiledialog"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/profiledialog_cancel"
+            android:layout_width="0dp"
+            android:background="@color/green_r"
+            android:layout_height="60dp"
+            android:layout_weight="50"
+            android:text="Cancel"
+            android:textColor="@color/white"
+            />
+        <Button
+            android:background="@color/green_r"
+            android:id="@+id/profiledialog_commit"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="50"
+            android:text="OK"
+            android:textColor="@color/white"
+            />
+    </LinearLayout>
+
+
+
+</LinearLayout>
