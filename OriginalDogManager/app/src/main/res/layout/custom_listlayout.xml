@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:background="@color/dark_blue">
+    <view
+        class="android.view.View"
+        android:layout_width="fill_parent"
+        android:layout_height="15sp"
+        android:background="@color/dark_blue"/>
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="270dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+   />
+        <Button
+            android:background="@drawable/playcustom"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:id="@+id/playbutton"/>
+    </FrameLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Video Tag"
+        android:gravity="center_horizontal"
+        android:id="@+id/tag"
+android:textSize="20sp"
+        android:textColor="@color/dark_green"
+       />
+    <view
+        class="android.view.View"
+        android:layout_width="fill_parent"
+        android:layout_height="25sp"
+        android:background="@color/dark_blue"/>
+
+</LinearLayout>
